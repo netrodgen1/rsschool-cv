@@ -7,20 +7,20 @@
     background-color: #ffffff;
     box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%);
     color: rgb(33 33 33);
-    
+
 }
 .two-columns {
     display: flex;
 }
+
 .left-column{
-    
+
     width: 58%;
     padding: 40px;
 }
-.sub-header{
+
+.sub-header {
     color: rgb(20 20 20);
-border-bottom: 2px solid #2AAEE7;
-height: 35px;
 }
 
 header img {
@@ -29,55 +29,74 @@ header img {
     border-radius: 50%;
 
 }
+
 .right-column{
     width: 42%;
-    color: black;
+    color: #000000;
     background-color: #ffffff;
-
-  
 }
+
 header{
     padding: 30px;
     text-align: center;
     background-color: #ffffff;
 }
+
 aside{
     padding: 0 40px;
 }
 
 li {
     list-style-type: none;
-   }
+}
 
-   ul {
-    margin-left: 0; 
-    padding-left: 0; 
-   }
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
 
-   header h2 {
+header h2 {
     margin-bottom: 20px;
     letter-spacing: 2px;
-  }
+}
 
-  .contacts li img {
+.contacts li img {
     vertical-align: middle;
     margin-right: 15px;
     margin-bottom: 10px;
-  }
+}
 
-  
-  .contacts a {
-    text-decoration: none;
-    color: var(--dark-gray-color);
-  }
 
-  .skills li img {
+.contacts a {
+  text-decoration: none;
+  color: var(--dark-gray-color);
+}
+
+.skills li img {
     vertical-align: middle;
     margin-right: 15px;
     margin-bottom: 10px;
-  }
+}
 
-  p {
+p {
     margin-top: 10px;
    margin-bottom: 0px;
-  }
+}
+section h3 {
+  border-bottom: 2px solid #2AAEE7;
+
+}
+
+code {
+text-align: left;
+}
+
+footer{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px 10px 28px;
+  font-size: 0.8rem;
+  text-align: center;
+  background-color:#9bd4ec;
+}
